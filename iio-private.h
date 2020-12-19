@@ -169,6 +169,7 @@ struct iio_device {
 	void *userdata;
 
 	char *name, *id;
+	enum backend_type type;
 
 	char **attrs;
 	unsigned int nb_attrs;
